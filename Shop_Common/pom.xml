@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Shop_Cloud</artifactId>
+        <groupId>com.yzp</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Shop_Common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Shop_Model</module>
+        <module>Shop_Entity</module>
+        <module>Shop_Mapper</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yzp</groupId>
+            <artifactId>shop_user_consumer</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

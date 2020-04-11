@@ -1,0 +1,4 @@
+# Project exclude paths
+/Shop_Common/Shop_Entity/target/
+/Shop_Common/Shop_Mapper/target/
+/Shop_Common/Shop_Model/target/
